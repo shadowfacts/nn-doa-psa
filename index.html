@@ -32,7 +32,7 @@
 			#nn-doa {
 				display: none;
 				width: 100vw;
-				height: 100%;
+				min-height: 100vh;
 				position: absolute;
 				left: 0px;
 				top: 0px;
@@ -43,9 +43,6 @@
 			#nn-doa-content {
 				width: 85%;
 				margin: 0 auto;
-				position: relative;
-				top: 50%;
-				transform: translateY(-50%);
 				text-align: center;
 			}
 			#nn-doa-close {
@@ -103,6 +100,49 @@
 					width: 80%;
 					margin: 20px auto;
 
+				}
+			}
+			@media (max-width: 550px) {
+				#nn-doa-content {
+					width: 95%;
+				}
+				#nn-doa-icon {
+					width: 150px;
+					height: 150px;
+				}
+				#nn-doa-headline {
+					font-size: 4rem;
+				}
+				#nn-doa-info {
+					font-size: 1.5rem;
+					line-height: 2.5rem;
+				}
+				#nn-doa-contact > a {
+					height: 3rem;
+					font-size: 1.5rem;
+					line-height: 3rem;
+				}
+			}
+			@media (max-width: 400px) {
+				#nn-doa-close {
+					top: 5px;
+					right: 5px;
+				}
+				#nn-doa-icon {
+					width: 100px;
+					height: 100px;
+				}
+				#nn-doa-headline {
+					font-size: 3rem;
+				}
+				#nn-doa-info {
+					font-size: 1rem;
+					line-height: 2rem;
+				}
+				#nn-doa-contact > a {
+					height: 2rem;
+					font-size: 1rem;
+					line-height: 2rem;
 				}
 			}
 		</style>
