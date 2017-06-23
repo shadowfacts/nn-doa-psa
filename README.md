@@ -5,4 +5,10 @@ This tempalte includes a prominent eye-catching message displayed when a page on
 
 This is designed to be easily dropped in to any website, and as such is entirely client side. This does mean that users with JavaScript disabled will not see the message.
 
-An example can be seen [here](https://shadowfacts.net/nn-doa-template/).
+A working demo can be seen [here](https://shadowfacts.net/nn-doa-template/).
+
+![Screenshot](http://i.imgur.com/cQNoe65.png)
+
+## Installation
+1. Copy the [`nn-doa` div](https://github.com/shadowfacts/nn-doa-template/blob/master/index.html#L10-L163) from the `index.html` page and add it to your website.
+2. That's it!
